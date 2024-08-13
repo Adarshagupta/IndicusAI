@@ -1,0 +1,7 @@
+modules = ["python-3.10"]
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 5150
+externalPort = 80
